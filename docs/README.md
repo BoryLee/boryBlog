@@ -30,7 +30,9 @@ vuepress dev .
 # 构建静态文件
 vuepress build .
 ```
-
+::: tip
+添加了pwa
+:::
 
 ::: tip
 This is a tip
@@ -53,4 +55,6 @@ This is a dangerous warning
 console.log('test')
 ```
 :::
+
+
 
