@@ -17,6 +17,14 @@ footer: hello world!
 
 ***像数 1, 2, 3 一样容易***
 
+
+[![Twitter](https://img.shields.io/twitter/url?style=plastic)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fborylee.github.io%2FboryBlog)
+
+
+<img :src="$withBase('/favicon.ico')" alt="foo">
+
+![favicon](/favicon.ico)
+
 ```sh
 # 安装
 yarn global add vuepress # 或者：npm install -g vuepress

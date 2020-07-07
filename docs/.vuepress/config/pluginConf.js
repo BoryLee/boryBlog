@@ -25,5 +25,8 @@ module.exports = {
         clientId: secret.clientId,
         clientSecret: secret.clientSecret,
     },
-    '@vuepress/back-to-top': true
+    '@vuepress/back-to-top': true,
+    '@vuepress/medium-zoom': {
+        selector: 'img',
+    }
 };
