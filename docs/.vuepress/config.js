@@ -3,7 +3,7 @@ const navConf = require('./config/navConf');
 const sidebarConf = require('./config/sidebarConf');
 const pluginConf = require('./config/pluginConf');
 module.exports = {
-    // base: '/boryBlog/',
+    base: '/boryBlog/',
     title: 'Bory的组件库',
     description: 'bory的组件库',
     head: headConf,
