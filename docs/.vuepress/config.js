@@ -2,7 +2,7 @@ const moment = require('moment');
 moment.locale('zh-cn')
 const nav = require('./config/navbar.js');
 module.exports = {
-    base: '/boryBlog/',
+    // base: '/boryBlog/',
     title: 'Bory的组件库',
     description: 'bory的组件库',
     head: [
@@ -48,8 +48,20 @@ module.exports = {
                     buttonText: "刷新"
                 },
             }
-        }]
+        }],
+        [
+            '@vssue/vuepress-plugin-vssue', {
+                // 设置 `platform` 而不是 `api`
+                platform: 'github',
+                // 其他的 Vssue 配置
+                owner: 'BoryLee',
+                repo: 'boryBlog',
+                clientId: '1ab1cc003f4136691a14',
+                clientSecret: 'd49b153212b7051033505042dff9881e61a24797',
+            },
+        ]
     ],
+    host: 'localhost',
     port: 8888,
     markdown: {
         lineNumbers: true // 代码块显示行号
