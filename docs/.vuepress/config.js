@@ -59,7 +59,8 @@ module.exports = {
                 clientId: '1ab1cc003f4136691a14',
                 clientSecret: 'd49b153212b7051033505042dff9881e61a24797',
             },
-        ]
+        ],
+        ['@vuepress/back-to-top']
     ],
     host: 'localhost',
     port: 8888,
