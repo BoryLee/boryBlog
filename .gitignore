@@ -12,3 +12,6 @@ unpackage/
 *.ntvs*
 *.njsproj
 *.sln
+
+
+secret.js
