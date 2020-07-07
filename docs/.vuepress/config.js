@@ -2,7 +2,7 @@ const moment = require('moment');
 moment.locale('zh-cn')
 const nav = require('./config/navbar.js');
 module.exports = {
-    // base: '/boryBlog/',
+    base: '/boryBlog/',
     title: 'Bory的组件库',
     description: 'bory的组件库',
     head: [
